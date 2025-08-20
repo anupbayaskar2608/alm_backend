@@ -8,9 +8,9 @@ import { DepartmentsModule } from "./departments/departments.module";
 import { ServicesModule } from "./services/services.module";
 import { ApplicationModule } from "./applications/applications.module";
 import { WorkloadsModule } from "./workloads/workloads.module";
-import { IpPoolsModule } from "./ip-pools/ip-pools.module";
 import { AppVmsModule } from "./app-vms/app-vms.module";
 import { SecurityGroupsModule } from './security-groups/security-groups.module';
+import { IpPoolsModule } from './ip-pools/ip-pools.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
